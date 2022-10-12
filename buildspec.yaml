@@ -13,17 +13,6 @@ phases:
       java: corretto11
 
 
-
-  pre_build:
-
-    commands:
-
-      - echo In the pre_build phase...
-
-      - mvn test
-
-
-
   build:
 
     commands:
