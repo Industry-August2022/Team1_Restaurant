@@ -1,6 +1,6 @@
 package com.example.demo.domains;
 
-public class Admin extends Customer {
+public class Admin extends Customers {
 
 	private int customerId;
 	private String name;
@@ -9,7 +9,7 @@ public class Admin extends Customer {
 	private String password;
 	
 	public Admin(int customerId, String name, String address, String email, String password) {
-		super(name, address);
+		super();
 		this.customerId = customerId;
 		this.name = name;
 		this.address = address;

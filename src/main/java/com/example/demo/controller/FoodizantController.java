@@ -13,7 +13,7 @@ import com.example.demo.repos.CustomerRepository;
 @Controller
 public class FoodizantController {
 //@Autowired
-private CustomerRepository Repo;
+
 	
 	@GetMapping("/Home")
 	public String welcome() {

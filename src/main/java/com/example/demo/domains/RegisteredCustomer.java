@@ -1,12 +1,12 @@
 package com.example.demo.domains;
 
-public class RegisteredCustomer extends Customer{
+public class RegisteredCustomer extends Customers{
 	private int customerId;
 	private String password;
 	private String email;
 	private String favRestaurant;
 	public RegisteredCustomer(int customerId, String name, String password, String email, String address) {
-		super(name, address);
+		super();
 		this.customerId = customerId;
 		this.password = password;
 		this.email = email;

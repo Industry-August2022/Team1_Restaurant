@@ -4,8 +4,8 @@ import java.util.*;
 
 public class CheckoutCart {
 private ArrayList<Food> food;
-private ArrayList<Customer> CL;
-public CheckoutCart(ArrayList<Food> food, ArrayList<Customer> cL) {
+private ArrayList<Customers> CL;
+public CheckoutCart(ArrayList<Food> food, ArrayList<Customers> cL) {
 	super();
 	this.food = food;
 	CL = cL;
@@ -16,10 +16,10 @@ public ArrayList<Food> getFood() {
 public void setFood(ArrayList<Food> food) {
 	this.food = food;
 }
-public ArrayList<Customer> getCL() {
+public ArrayList<Customers> getCL() {
 	return CL;
 }
-public void setCL(ArrayList<Customer> cL) {
+public void setCL(ArrayList<Customers> cL) {
 	CL = cL;
 }
 	
