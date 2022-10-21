@@ -1,51 +1,23 @@
 version: 0.2
-
-
-
 phases:
-
-
-
   install:
-
     runtime-versions:
-
-      java: corretto11
-
-
-
+      nodejs: 14.x
   pre_build:
-
     commands:
-
       - echo In the pre_build phase...
-
-      - mvn test
-
-
-
+      - npm install
+      - npm install -g @angular/cli
   build:
-
     commands:
-
       - echo Build started on `date`
-
-      - mvn package
-
-
-
+      - ng build
   post_build:
-
     commands:
-
       - echo Build completed on `date`
 
-
-
 artifacts:
-
   files:
-
-    - target/*.jar
-
-  discard-paths: yes
+    - '**/*'
+  base-directory: 'dist/foodizant'
+  discard-paths: no
