@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry excluding="Domains/|Features/" kind="src" path=""/>
-	<classpathentry kind="src" path="Domains"/>
-	<classpathentry kind="src" path="Features"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
