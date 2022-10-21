@@ -8,7 +8,7 @@ phases:
       - echo In the pre_build phase...
       - npm install
       - npm install -g @angular/cli
-      - npm install --save @angular/material
+      - npm install --save @angular/material @angular/cdk
   build:
     commands:
       - echo Build started on `date`
